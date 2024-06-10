@@ -20,6 +20,17 @@ body {
 .cart * {
     background-color: #fff;
 }
+
+.left .img-container {
+    width: 249px;
+    height: 223px;
+}
+.left .img-container img {
+    width: 249px;
+    height: 223px;
+    object-fit: cover;
+}
+
 .right .tag {
     background: #191847;
     color: #fff;
@@ -105,13 +116,4 @@ body {
     margin-top: 32px;
     display: flex;
     gap: 16px;
-}
-.left .img-container {
-    width: 249px;
-    height: 223px;
-}
-.left .img-container img {
-    width: 249px;
-    height: 223px;
-    object-fit: cover;
 }
