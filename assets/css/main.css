@@ -1,0 +1,110 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #eef2f9;
+    width: 100wh;
+    height: 100vh;
+}
+
+.cart {
+    width: 887px;
+    padding: 82px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    gap: 32px;
+    box-shadow: 0px 24px 28px 9px #b3c1d954;
+}
+.cart * {
+    background-color: #fff;
+}
+.right .tag {
+    background: #191847;
+    color: #fff;
+    padding: 4px 8px;
+    line-height: 21px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.right h2 {
+    margin-top: 10px;
+    line-height: 36px;
+    font-weight: 600;
+    font-size: 24px;
+}
+/* 32 */
+.old-price {
+    margin-top: 32px;
+    line-height: 21px;
+    font-size: 18px;
+}
+.price {
+    font-weight: 700;
+    line-height: 72px;
+    font-size: 48px;
+}
+.desc {
+    line-height: 21px;
+    font-size: 14px;
+    opacity: 0.5;
+}
+.add-to-cart {
+    margin-top: 32px;
+}
+.btn {
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 18px;
+    line-height: 27px;
+    border: 2px solid #C9C9DA;
+    width: 100%;
+    cursor: pointer;
+}
+.btn::hover {
+    background-color: aliceblue;
+}
+.btn-primary {
+    background: #4788e9;
+    color: #fff;
+    display: block;
+    border-color: transparent;
+    opacity: 0.9;
+}
+.btn-primary:hover {
+    opacity: 0.9;
+}
+.btn-primary:active {
+    opacity: 01;
+}
+.status {
+    margin-top: 32px;
+}
+.green-circl {
+    width: 13px;
+    height: 13px;
+    background-color: #00d98b;
+    border-radius: 50%;
+    display: inline-block;
+}
+.status .text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+.button-group {
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+}
+.left .img-container {
+    width: 249px;
+    height: 223px;
+}
+.left .img-container img {
+    width: 249px;
+    height: 223px;
+    object-fit: cover;
+}
