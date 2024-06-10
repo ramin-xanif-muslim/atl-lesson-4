@@ -63,10 +63,14 @@ body {
     width: 100%;
     cursor: pointer;
 }
-.btn:hover {
-    background-color: #FFFAFA;
+.btn-outline * {
+    background-color: transparent;
 }
-.btn:active {
+.btn-outline:hover {
+    background-color: #FFFAFA;
+    /* border: 2px solid #C9C9DA; */
+}
+.btn-outline:active {
     background-color: #FFF;
 }
 .btn-primary {
