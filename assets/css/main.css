@@ -63,21 +63,24 @@ body {
     width: 100%;
     cursor: pointer;
 }
-.btn::hover {
-    background-color: aliceblue;
+.btn:hover {
+    background-color: #FFFAFA;
+}
+.btn:active {
+    background-color: #FFF;
 }
 .btn-primary {
     background: #4788e9;
     color: #fff;
     display: block;
     border-color: transparent;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 .btn-primary:hover {
     opacity: 0.9;
 }
 .btn-primary:active {
-    opacity: 01;
+    opacity: 1;
 }
 .status {
     margin-top: 32px;
